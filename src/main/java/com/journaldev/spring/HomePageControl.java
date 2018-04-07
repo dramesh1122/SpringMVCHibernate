@@ -74,7 +74,6 @@ public class HomePageControl {
 	@RequestMapping(value="/loginpage",method=RequestMethod.GET)
 	public String getLoginpage(Model model){
 		model.addAttribute("loginForm", new Login());
-		
 		return "loginpage";
 	}
 	
