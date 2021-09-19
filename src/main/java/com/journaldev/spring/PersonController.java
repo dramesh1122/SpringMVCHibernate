@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.journaldev.spring.model.Person;
 import com.journaldev.spring.service.PersonService;
-// Nari 2nd committe //
+// Nari 2nd committe  ///
 @Controller
 @RequestMapping(value="person")
 public class PersonController {
