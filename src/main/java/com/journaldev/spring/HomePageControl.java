@@ -18,7 +18,7 @@ import com.journaldev.spring.dao.PersonDAOImpl;
 import com.journaldev.spring.model.Login;
 import com.journaldev.spring.model.User;
 import com.journaldev.spring.service.CategoryService;
-
+// Nari 1st Change //
 @Controller
 public class HomePageControl {
 	private static final Logger logger = LoggerFactory.getLogger(HomePageControl.class);
