@@ -27,7 +27,7 @@ public class HomePageControl {
 	public CategoryService getCategoryService() {
 		return categoryService;
 	}
-
+// narayana
 	@Autowired(required = true)
 	@Qualifier(value = "categoryService")
 	public void setCategoryService(CategoryService categoryService) {
